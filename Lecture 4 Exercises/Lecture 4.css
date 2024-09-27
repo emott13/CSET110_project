@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 5px 15px;
+    background-image: url(https://ntbrand-wp.s3.amazonaws.com/mystart/wp-content/uploads/2021/10/12161059/IN_Lavender_Flower_5d35db722dce9a1a624990aa.jpeg);
+    background-size: cover;
+}
+
+header, section, aside, footer{
+    margin: 8px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.header{
+    background-color: #5e1c8299;
+    margin: 16px 8px;
+}
+
+.hero{
+    background-color: #5e1c8299;
+}
+
+@media (min-width: 600px){
+    .container{
+    display: flex;
+    }
+}
+@media (min-width: 600px){
+    .sidebar{
+            background-image: linear-gradient(#5e1c8299, #031343af);
+    }
+}
+@media (max-width: 599px){
+    .header{
+        margin: 8px;
+    }
+}
+@media (max-width: 599px){
+    .sidebar{
+        background-color: #031343af;
+    }
+}
+
+.extraSpace{
+    margin: auto;
+    max-width: 90rem; /*rem is essentially 'root em', measurement based on font size of the root element*/
+}
+
+.content{
+    background-image: linear-gradient(#5e1c8299, #031343af);
+    flex: 1.5;
+    }
+
+.sidebar{
+    flex: 1;
+}
+
+.footer{
+    background-color: #031343af;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
